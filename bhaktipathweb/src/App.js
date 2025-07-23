@@ -1,24 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import { CssBaseline, Container } from '@mui/material';
+import Header from './components/Header';
+import HeroBanner from './components/HeroSection';
+// import GuruSection from './components/GuruSection';
+// import AboutTemple from './components/AboutTemple';
+// import Footer from './components/Footer';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   return (
+    <>
+      <CssBaseline />
+      <Header />
+      <HeroBanner />
+      {/* <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+        <GuruSection />
+        <AboutTemple />
+      </Container>
+      <Footer /> */}
+    </>
   );
 }
 

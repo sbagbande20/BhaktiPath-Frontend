@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Required Depencies 
+
+1.React & ReactDOM:
+    npm install react react-dom
+
+2. Material UI (MUI v5) Core Components:
+    npm install @mui/material @emotion/react @emotion/styled
+    npm install @mui/icons-material
+
+4. React Router DOM
+    npm install react-router-dom
+
+6. Framer Motion 
+    npm install framer-motion
+
+7.Install Dependencies
+    npm install i18next react-i18next i18next-browser-languagedetector
+
