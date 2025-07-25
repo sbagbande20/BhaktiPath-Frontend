@@ -1,4 +1,5 @@
 {
-  "welcome": "Welcome to Gurudev Datta Pith",
-  "about": "About the Temple"
+  "home.heading": "Home",
+  "home.intro": "Welcome to Shri Gurudev Dattpeeth, a spiritual and cultural center.",
+  "home.features": ["Spiritual Atmosphere", "Religious Programs", "Cultural Camps"]
 }
